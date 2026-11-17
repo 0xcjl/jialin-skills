@@ -10,16 +10,16 @@
 
 | 方向 | 项目 | 适合做什么 |
 | --- | --- | --- |
-| Agent 工作方式 | [anti-sycophancy](skills/anti-sycophancy/) | **介绍：**让 Agent 主动检验用户判断，减少未经核查的附和。<br>**用途：**方案评估、反例检查和风险讨论；Claude Code / OpenClaw 另有可选的 hook 与持久规则。 |
-| Agent 工作方式 | [autoresearch-pro](skills/autoresearch-pro/) | **介绍：**用有界、可回退的实验改进现有内容和工作流。<br>**用途：**优化技能、提示词或文章时设定基线、试验小改动，并根据可验证结果保留或回退。 |
-| Agent 工作方式 | [perfect-handoff](skills/perfect-handoff/) | **介绍：**把项目当前状态整理成下一次会话能接续的短交接。<br>**用途：**长任务收尾时核对项目事实、记录未完成事项，并给出可复制的新会话开场提示词。 |
-| 理解与表达 | [clear-view](skills/clear-view/) | **介绍：**把难读的材料变成文字结构图和独立 HTML 信息图。<br>**用途：**梳理长对话、文章、论文或产品说明中的人物观点、主题关系、分歧与待确认问题。 |
-| 理解与表达 | [merge-drafts](skills/merge-drafts/) | **介绍：**将多份文章草稿合成一份连贯成稿。<br>**用途：**不同版本各有亮点时，去重、补齐逻辑、保留事实与作者意图，并整理可审阅的文章结构。 |
-| 理解与表达 | [md-pdf-report](skills/md-pdf-report/) | **介绍：**从同一份 Markdown 生成可分享的排版 PDF。<br>**用途：**制作多语言调研报告、事实核查和方案文档；表格、引用及混排文字通过已安装的系统字体渲染。 |
-| 理解与表达 | [resume-creator](skills/resume-creator/) | **介绍：**把已核实的经历做成可编辑、可展示的简历。<br>**用途：**整理求职材料，生成 Reactive Resume JSON 或可离线打开、打印的单文件 HTML，并明确选择语言与版式。 |
-| Crypto 与安全 | [onchain-security](skills/onchain-security/) | **介绍：**给外部输入和链上行动加一套可审查的风险检查。<br>**用途：**安装技能或 MCP 前、打开可疑链接、审查仓库、分析合约与代币，以及交易前记录证据和风险等级。 |
-| Crypto 与安全 | [crypto-research](skills/crypto-research/) | **介绍：**用带来源和时间戳的证据研究 Crypto 项目与代币。<br>**用途：**了解产品进展、链上变化、流动性、注意力和筹码结构，也可核查单条说法并复盘既有判断。 |
-| 配套工具 | [RecordNote](tools/RecordNote/) | **介绍：**把 Obsidian 中的录音整理为可检索的 Markdown 笔记。<br>**用途：**会议或语音速记的转写、摘要、待办提取与导出；它是 [Obsidian 插件市场中的插件](https://community.obsidian.md/plugins/recordnote)，不是 Agent Skill。 |
+| Agent 工作方式 | [anti-sycophancy](skills/anti-sycophancy/) | <strong>介绍：</strong>让 Agent 主动检验用户判断，减少未经核查的附和。<br><strong>用途：</strong>方案评估、反例检查和风险讨论；Claude Code / OpenClaw 另有可选的 hook 与持久规则。 |
+| Agent 工作方式 | [autoresearch-pro](skills/autoresearch-pro/) | <strong>介绍：</strong>用有界、可回退的实验改进现有内容和工作流。<br><strong>用途：</strong>优化技能、提示词或文章时设定基线、试验小改动，并根据可验证结果保留或回退。 |
+| Agent 工作方式 | [perfect-handoff](skills/perfect-handoff/) | <strong>介绍：</strong>把项目当前状态整理成下一次会话能接续的短交接。<br><strong>用途：</strong>长任务收尾时核对项目事实、记录未完成事项，并给出可复制的新会话开场提示词。 |
+| 理解与表达 | [clear-view](skills/clear-view/) | <strong>介绍：</strong>把难读的材料变成文字结构图和独立 HTML 信息图。<br><strong>用途：</strong>梳理长对话、文章、论文或产品说明中的人物观点、主题关系、分歧与待确认问题。 |
+| 理解与表达 | [merge-drafts](skills/merge-drafts/) | <strong>介绍：</strong>将多份文章草稿合成一份连贯成稿。<br><strong>用途：</strong>不同版本各有亮点时，去重、补齐逻辑、保留事实与作者意图，并整理可审阅的文章结构。 |
+| 理解与表达 | [md-pdf-report](skills/md-pdf-report/) | <strong>介绍：</strong>从同一份 Markdown 生成可分享的排版 PDF。<br><strong>用途：</strong>制作多语言调研报告、事实核查和方案文档；表格、引用及混排文字通过已安装的系统字体渲染。 |
+| 理解与表达 | [resume-creator](skills/resume-creator/) | <strong>介绍：</strong>把已核实的经历做成可编辑、可展示的简历。<br><strong>用途：</strong>整理求职材料，生成 Reactive Resume JSON 或可离线打开、打印的单文件 HTML，并明确选择语言与版式。 |
+| Crypto 与安全 | [onchain-security](skills/onchain-security/) | <strong>介绍：</strong>给外部输入和链上行动加一套可审查的风险检查。<br><strong>用途：</strong>安装技能或 MCP 前、打开可疑链接、审查仓库、分析合约与代币，以及交易前记录证据和风险等级。 |
+| Crypto 与安全 | [crypto-research](skills/crypto-research/) | <strong>介绍：</strong>用带来源和时间戳的证据研究 Crypto 项目与代币。<br><strong>用途：</strong>了解产品进展、链上变化、流动性、注意力和筹码结构，也可核查单条说法并复盘既有判断。 |
+| 配套工具 | [RecordNote](tools/RecordNote/) | <strong>介绍：</strong>把 Obsidian 中的录音整理为可检索的 Markdown 笔记。<br><strong>用途：</strong>会议或语音速记的转写、摘要、待办提取与导出；它是 [Obsidian 插件市场中的插件](https://community.obsidian.md/plugins/recordnote)，不是 Agent Skill。 |
 
 ## 安装与使用
 
