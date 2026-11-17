@@ -10,16 +10,16 @@
 
 | 方向 | 项目 | 适合做什么 |
 | --- | --- | --- |
-| Agent 工作方式 | [anti-sycophancy](skills/anti-sycophancy/) | 检查迎合性回答；Claude Code / OpenClaw 有额外的安装层。 |
-| Agent 工作方式 | [autoresearch-pro](skills/autoresearch-pro/) | 用有界、可回退的实验改进技能、提示词和工作流。 |
-| Agent 工作方式 | [perfect-handoff](skills/perfect-handoff/) | 整理项目事实并制作可复制的新会话交接入口。 |
-| 理解与表达 | [clear-view](skills/clear-view/) | 把复杂材料整理成文字概览和独立 HTML 信息图。 |
-| 理解与表达 | [merge-drafts](skills/merge-drafts/) | 合并多份文章草稿，保留有价值的内容与作者意图。 |
-| 理解与表达 | [md-pdf-report](skills/md-pdf-report/) | 将 Markdown 研究报告生成支持中日韩文字的 PDF。 |
-| 理解与表达 | [resume-creator](skills/resume-creator/) | 用已核实的经历制作 Reactive Resume JSON 或单文件 HTML 简历。 |
-| Crypto 与安全 | [onchain-security](skills/onchain-security/) | 审查外部技能、仓库、链接及链上标的和交易前风险。 |
-| Crypto 与安全 | [crypto-research](skills/crypto-research/) | 用可追溯证据研究 Crypto 项目、协议和代币；支持单条事实核查。 |
-| 配套工具 | [RecordNote](tools/RecordNote/) | Obsidian 录音转写、摘要、待办与 Markdown 笔记；[插件市场页面](https://community.obsidian.md/plugins/recordnote)。**它是插件，不是 Agent Skill**。 |
+| Agent 工作方式 | [anti-sycophancy](skills/anti-sycophancy/) | 让 Agent 主动检验用户判断，减少未经核查的附和。适合方案评估、反例检查和风险讨论；Claude Code / OpenClaw 另有可选的 hook 与持久规则。 |
+| Agent 工作方式 | [autoresearch-pro](skills/autoresearch-pro/) | 用有界、可回退的实验改进现有内容和工作流。适合优化技能、提示词或文章时设定基线、试验小改动，并根据可验证结果保留或回退。 |
+| Agent 工作方式 | [perfect-handoff](skills/perfect-handoff/) | 把项目当前状态整理成下一次会话能接续的短交接。适合长任务收尾：核对项目事实、记录未完成事项，并给出可复制的新会话开场提示词。 |
+| 理解与表达 | [clear-view](skills/clear-view/) | 把难读的材料变成文字结构图和独立 HTML 信息图。适合梳理长对话、文章、论文或产品说明中的人物观点、主题关系、分歧与待确认问题。 |
+| 理解与表达 | [merge-drafts](skills/merge-drafts/) | 将多份文章草稿合成一份连贯成稿。适合不同版本各有亮点时，去重、补齐逻辑、保留事实与作者意图，并整理可审阅的文章结构。 |
+| 理解与表达 | [md-pdf-report](skills/md-pdf-report/) | 从同一份 Markdown 生成可分享的排版 PDF。适合多语言调研报告、事实核查和方案文档；表格、引用及混排文字通过已安装的系统字体渲染。 |
+| 理解与表达 | [resume-creator](skills/resume-creator/) | 把已核实的经历做成可编辑、可展示的简历。适合求职材料整理，生成 Reactive Resume JSON 或可离线打开、打印的单文件 HTML，并明确选择语言与版式。 |
+| Crypto 与安全 | [onchain-security](skills/onchain-security/) | 给外部输入和链上行动加一套可审查的风险检查。适合安装技能或 MCP 前、打开可疑链接、审查仓库、分析合约与代币，以及交易前记录证据和风险等级。 |
+| Crypto 与安全 | [crypto-research](skills/crypto-research/) | 用带来源和时间戳的证据研究 Crypto 项目与代币。适合了解产品进展、链上变化、流动性、注意力和筹码结构，也可核查单条说法并复盘既有判断。 |
+| 配套工具 | [RecordNote](tools/RecordNote/) | 把 Obsidian 中的录音整理为可检索的 Markdown 笔记。适合会议或语音速记的转写、摘要、待办提取与导出；它是 [Obsidian 插件市场中的插件](https://community.obsidian.md/plugins/recordnote)，不是 Agent Skill。 |
 
 ## 安装与使用
 

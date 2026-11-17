@@ -10,16 +10,16 @@ This collection contains **9 loadable Agent Skills** and **1 Obsidian plugin**. 
 
 | Area | Project | Use it for |
 | --- | --- | --- |
-| Agent practice | [anti-sycophancy](skills/anti-sycophancy/) | Challenge agreeable answers; extra installation layers are available for Claude Code and OpenClaw. |
-| Agent practice | [autoresearch-pro](skills/autoresearch-pro/) | Improve existing skills, prompts, and workflows with bounded, reversible experiments. |
-| Agent practice | [perfect-handoff](skills/perfect-handoff/) | Reconcile project facts and prepare a compact, reusable session handoff. |
-| Understanding & writing | [clear-view](skills/clear-view/) | Turn dense material into a structured overview and standalone HTML infographic. |
-| Understanding & writing | [merge-drafts](skills/merge-drafts/) | Combine article drafts while retaining useful material and author intent. |
-| Understanding & writing | [md-pdf-report](skills/md-pdf-report/) | Convert Markdown research reports to PDFs with CJK text support. |
-| Understanding & writing | [resume-creator](skills/resume-creator/) | Build fact-grounded Reactive Resume JSON or a single-file HTML résumé. |
-| Crypto & security | [onchain-security](skills/onchain-security/) | Review external skills, repositories, links, on-chain assets, and pre-trade risks. |
-| Crypto & security | [crypto-research](skills/crypto-research/) | Research crypto projects, protocols, and tokens with traceable evidence and focused fact checks. |
-| Companion tool | [RecordNote](tools/RecordNote/) | Transcribe and organize Obsidian recordings into summaries, actions, and Markdown notes; [Obsidian plugin listing](https://community.obsidian.md/plugins/recordnote). **An Obsidian plugin, not an Agent Skill**. |
+| Agent practice | [anti-sycophancy](skills/anti-sycophancy/) | Prompts an agent to test assumptions instead of agreeing too quickly. Use it for proposal reviews, counterexamples, and risk discussions; Claude Code and OpenClaw have optional hook and persistent-rule layers. |
+| Agent practice | [autoresearch-pro](skills/autoresearch-pro/) | Improves existing work through bounded, reversible experiments. Use it to baseline a skill, prompt, article, or workflow, try a small change, and keep or revert it based on observable results. |
+| Agent practice | [perfect-handoff](skills/perfect-handoff/) | Turns current project state into a short handoff for the next session. Use it at the end of long tasks to reconcile facts, record unfinished work, and prepare a ready-to-paste opening prompt. |
+| Understanding & writing | [clear-view](skills/clear-view/) | Converts dense material into a structured explanation and standalone HTML infographic. Use it to map speakers, arguments, topic relationships, disagreements, and open questions in conversations, papers, or briefs. |
+| Understanding & writing | [merge-drafts](skills/merge-drafts/) | Combines several article drafts into one coherent version. Use it when different drafts contain useful passages that need deduplication, clearer logic, and an editor-ready structure without losing author intent. |
+| Understanding & writing | [md-pdf-report](skills/md-pdf-report/) | Produces a shareable, styled PDF from one editable Markdown source. Use it for multilingual research reports, fact checks, and proposals with tables, citations, and mixed scripts rendered through installed system fonts. |
+| Understanding & writing | [resume-creator](skills/resume-creator/) | Builds presentable résumés from verified career facts. Use it to create Reactive Resume JSON or an offline, printable single-file HTML résumé after choosing its language and visual style. |
+| Crypto & security | [onchain-security](skills/onchain-security/) | Adds an auditable risk review before trusting external inputs or on-chain actions. Use it before installing skills or MCP servers, opening suspicious links, reviewing repositories or contracts, and recording pre-trade evidence. |
+| Crypto & security | [crypto-research](skills/crypto-research/) | Studies crypto projects and tokens with timestamped, traceable evidence. Use it to examine product progress, on-chain changes, liquidity, attention, and holder structure, or to fact-check a claim and revisit earlier judgments. |
+| Companion tool | [RecordNote](tools/RecordNote/) | Turns Obsidian recordings into searchable Markdown notes. Use it for meeting or voice-note transcription, summaries, action items, and export; it is an [Obsidian Community Plugin](https://community.obsidian.md/plugins/recordnote), not an Agent Skill. |
 
 ## Install and use
 
