@@ -1,0 +1,10 @@
+{
+  "id": "recordnote",
+  "name": "RecordNote",
+  "version": "0.2.37",
+  "minAppVersion": "1.15.0",
+  "description": "Transcribe audio recordings and organize them into summaries, action items, and Markdown notes with AI.",
+  "author": "Jialin",
+  "isDesktopOnly": false,
+  "authorUrl": "https://x.com/0xjialin"
+}
